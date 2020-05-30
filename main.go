@@ -1,12 +1,7 @@
 package main
 
-import (
-  // "fmt"
-)
-
 func main() {
-  // This is the main function
-  cards := newDeck()
-
-  cards.print()
+	cards := newDeck()
+	cards.shuffle()
+	cards.print()
 }
