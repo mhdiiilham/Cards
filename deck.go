@@ -8,6 +8,11 @@ import (
 	"github.com/w8rLoO/GO-Random"
 )
 
+type card struct {
+	suit string
+	value string
+}
+
 // Create a new type of 'deck'
 // Which is a slice of strings.
 type deck []string
