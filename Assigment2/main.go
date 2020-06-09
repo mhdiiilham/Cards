@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	filename := os.Args[1]
-	file,_ := os.Open(filename)
+	filePath := os.Args[1]
+	file,_ := os.Open(filePath)
 	io.Copy(os.Stdout, file)
 }
